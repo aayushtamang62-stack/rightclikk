@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold text-gray-800">
+        <a href="#home" className="text-2xl font-bold text-gray-800">
           <span className="bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
             RightClikk
           </span>
@@ -23,7 +23,7 @@ export default function Navbar() {
           <a href="#privacy" className="text-gray-600 hover:text-orange-500 transition">Privacy</a>
         </div>
 
-        {/* Hamburger Button (mobile only) */}
+        {/* Hamburger Button */}
         <button
           className="md:hidden text-3xl text-gray-700 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}

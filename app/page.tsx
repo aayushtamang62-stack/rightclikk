@@ -262,7 +262,7 @@ export default function Home() {
       </section>
 
       {/* Terms & Conditions Section */}
-      <section id="download" className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 text-center">
+      <section id="terms" className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 text-center">
         <div className="max-w-5xl mx-auto px-6">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 font-inter">
             <span className="text-4xl md:text-5xl font-bold text-white mb-6 font-inter">
@@ -281,6 +281,7 @@ export default function Home() {
           </ul>
         </div>
       </section>
+
 
       {/* Privacy Policy Section */}
       <section id="privacy" className="py-20 bg-gradient-to-b from-gray-50 to-white">
