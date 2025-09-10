@@ -270,10 +270,10 @@ export default function Home() {
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto mb-6"></div>
-          <p className="text-gray-600 leading-relaxed mb-6 text-lg">
+          <p className="text-gray-400 leading-relaxed">
             By using RightClikk, you agree to follow our terms and conditions. Please read them carefully.
           </p>
-          <ul className="space-y-4 text-gray-600 text-left max-w-3xl mx-auto">
+          <ul className="text-gray-300 mb-10 text-lg leading-relaxed">
             <li>✔️ Provide accurate details while booking.</li>
             <li>✔️ RightClikk is not liable for delays caused by traffic or unforeseen events.</li>
             <li>✔️ Payments must be made through approved methods only.</li>
