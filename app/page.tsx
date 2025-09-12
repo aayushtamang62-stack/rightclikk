@@ -261,49 +261,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Terms & Conditions Section */}
-      <section id="terms" className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-800 text-center">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 font-inter">
-            <span className="text-4xl md:text-5xl font-bold text-white mb-6 font-inter">
-              Terms & <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">Conditions</span>
-            </span>
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto mb-6"></div>
-          <p className="text-gray-400 leading-relaxed">
-            By using RightClikk, you agree to follow our terms and conditions. Please read them carefully.
-          </p>
-          <ul className="text-gray-300 mb-10 text-lg leading-relaxed">
-            <li>✔️ Provide accurate details while booking.</li>
-            <li>✔️ RightClikk is not liable for delays caused by traffic or unforeseen events.</li>
-            <li>✔️ Payments must be made through approved methods only.</li>
-            <li>✔️ Misuse of the app may result in account suspension.</li>
-          </ul>
-        </div>
-      </section>
-
-
-      {/* Privacy Policy Section */}
-      <section id="privacy" className="py-20 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 font-inter">
-            <span className="bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
-              Privacy Policy
-            </span>
-          </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto mb-6"></div>
-          <p className="text-gray-600 leading-relaxed mb-6 text-lg">
-            At RightClikk, your privacy is very important to us. We are committed to protecting your
-            personal data and being transparent about how we use it.
-          </p>
-          <ul className="space-y-4 text-gray-600 text-left max-w-3xl mx-auto">
-            <li>🔒 We collect only necessary details (name, email, phone) for bookings.</li>
-            <li>🔒 Location data is used only for ride tracking and better service.</li>
-            <li>🔒 We do not share your personal data with third parties without consent.</li>
-            <li>🔒 You may request deletion of your data by contacting support.</li>
-          </ul>
-        </div>
-      </section>
+     
 
 
       {/* Footer */}
@@ -331,8 +289,13 @@ export default function Home() {
                 <a href="#download" className="block text-gray-400 hover:text-orange-400 transition-colors">Download</a>
                 <a href="#contact" className="block text-gray-400 hover:text-orange-400 transition-colors">Contact</a>
                 <a href="#" className="block text-gray-400 hover:text-orange-400 transition-colors">Support</a>
-                <a href="#terms" className="block text-gray-400 hover:text-orange-400 transition-colors">Terms & Conditions</a>
-                <a href="#privacy" className="block text-gray-400 hover:text-orange-400 transition-colors">Privacy Policy</a>
+                <a href="/terms" className="block text-gray-400 hover:text-orange-400 transition-colors">
+                  Terms & Conditions
+                </a>
+                <a href="/privacy" className="block text-gray-400 hover:text-orange-400 transition-colors">
+                  Privacy Policy
+                </a>
+
 
               </div>
             </div>
